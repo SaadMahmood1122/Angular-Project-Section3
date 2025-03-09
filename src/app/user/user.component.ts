@@ -1,5 +1,4 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { CartComponent } from '../shared/cart/cart.component';
 
 // using type
 // type User = {
@@ -17,8 +16,6 @@ interface User {
 
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [CartComponent],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })

@@ -1,10 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { CartComponent } from '../../shared/cart/cart.component';
-import { DatePipe } from '@angular/common';
+
 @Component({
   selector: 'app-mini-task',
-  standalone: true,
-  imports: [CartComponent, DatePipe],
   templateUrl: './mini-task.component.html',
   styleUrl: './mini-task.component.css',
 })

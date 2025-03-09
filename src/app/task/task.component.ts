@@ -1,12 +1,8 @@
 import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
-import { MiniTaskComponent } from './mini-task/mini-task.component';
-import { NewTaskComponent } from './new-task/new-task.component';
 import { TaskService } from './task.service';
 
 @Component({
   selector: 'app-task',
-  standalone: true,
-  imports: [MiniTaskComponent, NewTaskComponent],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css',
 })
